@@ -6,7 +6,7 @@ const connectDB = async ()=>{
 
         console.log(`MngoDB connecteed: ${conn.connection.host}`.cyan.underline)
     } catch (error) {
-        console.log(err)
+        console.log(error)
         process.exit(1)
     }
 }
